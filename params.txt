@@ -1,0 +1,38 @@
+catboost:
+    F1 Score: 0.8537638205455319.
+    params:
+        depth: 9
+        learning_rate: 0.04080289243388582
+        iterations: 137
+        l2_leaf_reg: 5.337757222053476
+        bagging_temperature: 0.5180609232937734
+
+xgboost: 
+    F1 Score: 0.8525779448849288
+    params:
+        max_depth: 5
+        learning_rate: 0.026702342050870347
+        n_estimators: 218
+        subsample: 0.7787723853194979
+        colsample_bytree: 0.7710904649480395
+        gamma: 1.2850994589333046e-05
+
+lightgbm:
+    F1 Score: 0.8567725768321512
+    params:
+        num_leaves: 22
+        max_depth: 5
+        learning_rate: 0.03996298076766112
+        n_estimators: 228
+        min_child_samples: 12
+        subsample: 0.8519993903232219
+        colsample_bytree: 0.8458067773417671
+
+random_forest_classifier:
+    F1 Score: 0.8512638297872339
+    params:
+        n_estimators: 289
+        max_depth: 30
+        min_samples_split: 5
+        min_samples_leaf: 1
+        max_features: None

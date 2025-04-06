@@ -1,0 +1,11 @@
+Column Name,Description
+GRE Score,Graduate Record Examination score (out of 340)
+TOEFL Score,Test of English as a Foreign Language score (out of 120)
+University Rating,Rating of the university the applicant is applying to (1 to 5)
+SOP,Strength of the Statement of Purpose (rated 1 to 5)
+LOR,Strength of the Letter of Recommendation (rated 1 to 5)
+CGPA,Undergraduate GPA (on a 10-point scale)
+Location           ,what continent is the applicant in
+Age                ,what is the age of the applicant
+Research,"Whether the applicant has research experience (1 = Yes, 0 = No)"
+Admitted,"Target variable; 1 = Admitted, 0 = Not Admitted"
